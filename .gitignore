@@ -1,0 +1,20 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local datasets and large generated artifacts
+data/thumos14/subsets/
+data/thumos14/videos/
+data/thumos14/annotations/thumos14_clip_annotations_subset200.json
